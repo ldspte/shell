@@ -1,2 +1,2 @@
 #!/bin/bash
-work_path=(pwd),
+work_path=$(dirname $(readlink -f $0))
